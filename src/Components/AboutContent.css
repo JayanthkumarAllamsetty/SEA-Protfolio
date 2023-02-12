@@ -1,0 +1,45 @@
+.about{
+   width: 100%;
+   margin: 3rem 0;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+    max-width: 350px;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+
+}
+.about .left p{
+   margin: 1.2rem 0;
+}
+.about .right{
+    max-width: 700px;
+}
+.right .Img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.right .img{
+    max-width: 90%;
+    border: 1px solid #0c0c0c;
+}
+.right .img-stacktop{
+    grid-column: 1/span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+.right .img-stackbottom{
+    grid-column: 4/-1;
+    grid-row: 1;
+    z-index: 5;
+}

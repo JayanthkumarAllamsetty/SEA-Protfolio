@@ -1,0 +1,23 @@
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+form,input,textarea{
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #050505;
+}
