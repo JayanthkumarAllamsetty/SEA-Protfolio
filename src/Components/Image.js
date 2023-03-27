@@ -1,5 +1,5 @@
 import "./Image.css";
-import introImg from "../assets/SEA Logo.jpg";
+import introImg from "../assets/Header-3.gif";
 import React from 'react'
 import { Link } from "react-router-dom";
 
@@ -11,10 +11,10 @@ const Image = () => {
         </div>
         <div className="content">
             <p>
-                Welcome to SEA
+                Welcome 
             </p>
             <h1>
-                We deal with Web development and DevOps.
+                I'm Jayanth Kumar Allamsetty
             </h1>
             <div>
                 <Link to="/projects" className="btn">Projects</Link>

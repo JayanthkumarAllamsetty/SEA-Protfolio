@@ -1,30 +1,30 @@
 .projectHeading{
     text-align: center;
-    padding: 4rem 0 2rem 0;
-    color: #000000;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
     
 }
 
 .projectContianer{
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    margin:auto;
-    padding-bottom: 5rem;
-    max-width: 100%;
     margin: auto;
+    max-width: 1140px;
+    padding: 0 1rem;
 
 
 }
 .projectCard{
-    background-color: #000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 1.2rem 1rem;
+    background: #0c0c0c;
     border-radius: 10px;
+    padding: 1rem;
     transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-
+    line-height: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     
 }
 .project-title{
@@ -36,12 +36,14 @@
 .project-details{
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     color: #ffffff;
-    text-align: justify;
+    line-height: 30px;
+
 }
 .projectCard img{
     /* width: 100%; */
+    
     object-fit: cover;
     background-size: cover;
     transition: all 0.3s ease;
